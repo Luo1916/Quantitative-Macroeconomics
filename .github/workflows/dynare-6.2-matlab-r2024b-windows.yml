@@ -107,3 +107,48 @@ jobs:
             cd("progs/matlab");
             keatingSR;
             BlanchardQuahLR;
+
+      - name: Run week 10 codes
+        uses: matlab-actions/run-command@v2
+        with:
+          command: |
+            addpath("D:\hostedtoolcache\windows\dynare-6.0\matlab");
+            cd("progs/matlab");
+            RWZSRLR;
+            bootstrappingStdIRFs_RWZSRLR;
+
+      - name: Run week 11 codes
+        uses: matlab-actions/run-command@v2
+        with:
+          command: |
+            addpath("D:\hostedtoolcache\windows\dynare-6.0\matlab");
+            cd("progs/matlab");
+            BayesianQuarterlyInflation;
+
+      - name: Run week 12 codes
+        uses: matlab-actions/run-command@v2
+        with:
+          command: |
+            addpath("D:\hostedtoolcache\windows\dynare-6.0\matlab");
+            cd("progs/matlab");
+            BVARZLB_run;
+
+      - name: Run week 13 codes
+        uses: matlab-actions/run-command@v2
+        with:
+          command: |
+            addpath("D:\hostedtoolcache\windows\dynare-6.0\matlab");
+            cd("progs/matlab");
+            rbcLogutilSSTest;
+            rbcSSTest;
+            cd("../dynare");
+            dynare rbcLogutil
+            dynare rbcCES
+
+      - name: Run week 14 codes
+        uses: matlab-actions/run-command@v2
+        with:
+          command: |
+            addpath("D:\hostedtoolcache\windows\dynare-6.0\matlab");
+            cd("progs/matlab");
+            dsge_maximum_likelihood_illustration;

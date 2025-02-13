@@ -195,7 +195,6 @@ Familiarize yourself with
 
 </details>
 
-<!---
 
 <details>
   <summary> Week 10: Asymptotic and Bootstrap Inference in SVARs Identified By Exclusion Restrictions: Theory</summary>
@@ -205,29 +204,12 @@ Familiarize yourself with
 * implement both short-run and long-run restrictions using numerical optimization
 * understand pros and cons of asymptotic inference for the impulse-response function of SVAR models
 * understand pros and cons of bootstrap inference for the impulse-response function of SVAR models
-
-### To Do
-
-* [x] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_8.pdf) and write down all your questions
-* [x] Read Kilian and Lütkepohl (2007, Ch. 4.1, Ch. 7.6, Ch.8, Ch.9, Ch.10.1, 10.3, 10.4, 10.5, 11.1, 11.2, 11.3). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
-* [x] Do exercises 1 and 2 of problem set 9
-* [x] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
-
-</details>
-
-
-<details>
-  <summary> Week 10: Bootstrap Inference in SVARs Identified By Exclusion Restrictions</summary>
-
-### Goals
-
-* implement and compare asymptotic and bootstrap standard deviations of structural IRFs
-* implement and compare asymptotic and bootstrap confidence intervals of structural IRFs
+* implement and compare asymptotic and bootstrap standard deviations and confidence intervals of structural IRFs
 
 ### To Do
 
 * [x] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_9.pdf) and write down all your questions
-* [x] Read Kilian and Lütkepohl (2007, Ch. 12.1-12.5, Ch. 12.9). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
+* [x] Read Kilian and Lütkepohl (2007, Ch. 4.1, Ch. 7.6, Ch.8, Ch.9, Ch.10.1, 10.3, 10.4, 10.5, 11.1, 11.2, 11.3, 12.1-12.5, Ch. 12.9). Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [x] We will do the exercises in class.
 * [x] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
 
@@ -259,7 +241,7 @@ Familiarize yourself with
 
 ### Goals
 
-* apply the Bayesian estimation framework and methods from last week to the multivariate case
+* apply the Bayesian estimation framework and methods from the univariate to the multivariate case
 * understand the Minnesota prior
 * estimate a multivariate vector autoregressive model with Bayesian techniques and a Minnesota prior that is fine-tuned to include the zero-lower-bound period of nominal interest rates
 
@@ -282,6 +264,7 @@ Familiarize yourself with
 * understand the DSGE model framework, its basic structure and key challenges
 * understand the algebra of a basic RBC model and of a basic New Keynesian model
 * compute the steady-state of the RBC model with either MATLAB or Dynare
+* understand the first-order perturbation solution to DSGE models
 
 
 ### To Do
@@ -289,27 +272,9 @@ Familiarize yourself with
 * [x] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_12.pdf) and write down all your questions
 * [x] Read Fernandez-Villaverde, Rubio-Ramirez, and Schorfheide (2016, Ch.1) and Torres (2013, Ch. 1).
 * [x] Read EITHER Gali (2015, Ch. 3) OR Heijdra (2017, Ch. 9) OR Romer (2019, Ch. 7) OR Woodford (2003, Ch. 3) OR Walsh (2017, Ch. 8)
-* [x] Watch [Algebra of New Keynesian models](https://mutschler.eu/dynare/models/nk/)
-* [x] Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
-* [x] Do exercise sheet 13
-* [x] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
-
-</details>
-
-
-<details>
-  <summary> Week 14: Solving DSGE models</summary>
-
-### Goals
-
-* understand the first-order perturbation solution to DSGE models
-* apply it to the basic New Keynesian model
-
-
-### To Do
-
-* [x] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_13.pdf) and write down all your questions
-* [x] Watch [Solving DSGE models with first-order perturbation: what Dynare does](https://mutschler.eu/dynare/perturbation/first-order-theory/)
+* Optionally:
+  * [x] watch [Algebra of New Keynesian models](https://mutschler.eu/dynare/models/nk/)
+  * [x] Watch [Solving DSGE models with first-order perturbation: what Dynare does](https://mutschler.eu/dynare/perturbation/first-order-theory/)
 * [x] Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [x] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
 
@@ -317,23 +282,25 @@ Familiarize yourself with
 
 
 <details>
-  <summary> Week 15: Kalman filter and Metropolis-Hastings</summary>
+  <summary> Week 14: Kalman filter and Metropolis-Hastings</summary>
 
 ### Goals
 
 * understand the Kalman filter and its use in DSGE models
+* understand Maximum Likelihood estimation of DSGE models
 * understand the Metropolis-Hastings algorithm and its use in DSGE models
 
 
 ### To Do
 
 * [x] Review the solutions of [last week's exercises](https://github.com/wmutschl/Quantitative-Macroeconomics/releases/latest/download/week_14.pdf) and write down all your questions
-* [x] Follow the lecture, you can find the slides on Ilias.
+* [x] Follow the lecture.
 * [x] Make note of all the aspects and concepts that you are not familiar with or that you find difficult to understand.
 * [x] If you have questions, get in touch with me via email or (better) [schedule a meeting](https://schedule.mutschler.eu)
 
 </details>
 
+<!---
 \-->
 
 ## Content
